@@ -14,6 +14,8 @@
 var OFFLINE_CACHE = 'offline';
 var OFFLINE_URL = 'offline.html';
 
+importScripts('serviceworker-cache-polyfill.js');
+
 self.addEventListener('install', function(event) {
   var offlineRequest = new Request(OFFLINE_URL);
   event.waitUntil(
