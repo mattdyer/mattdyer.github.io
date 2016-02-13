@@ -2,11 +2,10 @@
   app.AppComponent =
     ng.core.Component({
       selector: 'my-app',
-      template: '<h1>mattdyer.us</h1>' +
-      '<div><a href="/">Home</a></div>' + 
-      '<div><a href="http://codebjournal.mattdyer.us">BJournal</a></div>'
+      templateUrl: 'app/home.html'
     })
     .Class({
-      constructor: function() {}
+      constructor: function() {
+      }
     });
 })(window.app || (window.app = {}));
