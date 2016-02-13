@@ -3,8 +3,8 @@
     ng.core.Component({
       selector: 'my-app',
       template: '<h1>mattdyer.us</h1>' +
-      '<a href="/">Home</a>' + 
-      '<a href="http://codebjournal.mattdyer.us">BJournal</a>'
+      '<div><a href="/">Home</a></div>' + 
+      '<div><a href="http://codebjournal.mattdyer.us">BJournal</a></div>'
     })
     .Class({
       constructor: function() {}
