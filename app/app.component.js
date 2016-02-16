@@ -5,7 +5,6 @@
       templateUrl: 'app/home.html'
     })
     .Class({
-      constructor: function() {
-      }
+      constructor: function() {}
     });
 })(window.app || (window.app = {}));

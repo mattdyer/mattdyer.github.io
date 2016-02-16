@@ -1,0 +1,28 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCC;
+}
+
+.content-container{
+	margin: 0 150px;
+	padding: 10px;
+	background-color: #FFF;
+	white-space: nowrap;
+}
+
+.content-container *{
+	white-space: normal;
+}
+
+.column{
+	display: inline-block;
+}
+
+.content-column{
+	width:80%;
+}
+
+.sidebar-column{
+	width: 20%;
+}
