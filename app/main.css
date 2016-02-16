@@ -17,6 +17,7 @@ body{
 
 .column{
 	display: inline-block;
+	vertical-align: top;
 }
 
 .content-column{
